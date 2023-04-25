@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hero Buildings</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <model-viewer src="../models/BAudi.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="../images/BAudi/BAudi.webp" shadow-intensity="1" environment-image="legacy" camera-orbit="29.95deg 84.71deg 103.5m" field-of-view="30deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto">
+      <button class="Hotspot" slot="hotspot-1" data-position="15.633754500024057m 16.635433496912746m -6.326897402257236m" data-normal="0.10550581827341285m 0.5887547421617921m 0.8013965160221619m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" onclick="infoPage()">Baldwin Auditorium</div>
+      </button>
+      <div class="progress-bar" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+    </model-viewer>  
+    <section>
+      <h1 onclick="modelScene()">&lt; Baldwin Auditorium</h1>
+      <figure>
+        <img src="../images/BAudi/BAudi_Now.png" alt="The Present Baldwin Auditorium">
+        <figcaption>Baldwin Auditorium Today (<i>Open Durham</i>)</figcaption>
+      </figure>
+      <img class="protrait" src="../images/BAudi/BAudi_MAB.png" alt="Mary Alice Baldwin">
+      <p>
+        The auditorium was built in 1927 and was originally known as the Womens College Auditorium. 
+        It was re-named after Mary Alice Baldwin in 1968. 
+        She was the dean of women at Trinity College from 1923 - 1930 and later the first dean of the Women's College from 1930-1947.
+        <br><br>
+        Situated at the end of the quad, the building was built to serve as the focal point for the new Women's Campus. 
+        Along with the rest of the East Campus buildings being constructed during this time period, the auditorium was designed by the Office of Horace Trumbauer in the Georgian style and constructed with red brick and Vermont marble.
+      </p>
+      <figure class="last">
+        <img src="../images/BAudi/BAudi_Cons.jpg" alt="Construction of Baldwin Auditorium">
+        <figcaption>Construction of Baldwin Auditorium (<i>Open Durham</i>)</figcaption>
+      </figure>
+    </section>
+    <footer>
+      <nav>
+        <nav>
+          <ul id="nav-links">
+              <li><a href="../index.html">B N Duke House</a></li>
+              <li><a href="MMChurch.html">Memorial Methodist Church</a></li>
+              <li><a href="BAudi.html">Baldwin Auditorium</a></li>
+              <li><a href="DChapel.html">Duke Chapel</a></li>
+              <li><a href="EMill.html">Erwin Cotton Mill No. 1</a></li>
+          </ul>
+      </nav>
+    </nav>
+    </footer>
+    <script src="../script.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>

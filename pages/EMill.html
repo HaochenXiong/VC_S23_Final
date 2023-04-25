@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hero Buildings</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <model-viewer src="../models/EMill.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="../images/EMill/EMill.webp" shadow-intensity="1" camera-orbit="-146.4deg 72.78deg 0.2204m" field-of-view="30deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto">
+      <button class="Hotspot" slot="hotspot-1" data-position="0.0010289171321464022m 0.004865436651582882m -0.012461143456305833m" data-normal="0m 2.220446049250313e-16m -1m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" onclick="infoPage()">Erwin Cotton Mill No. 1</div>
+      </button>
+      <div class="progress-bar" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+    </model-viewer>
+    <section>
+      <h1 onclick="modelScene()">&lt; Erwin Cotton Mill No. 1</h1>
+      <figure>
+        <img src="../images/EMill/EMill_Drawing.png" alt="Drawing of Erwin Mill">
+        <figcaption>Drawing of Erwin Mill (1875-1907) (<i>Open Durham</i>)</figcaption>
+      </figure>
+      <p>
+        Erwin Mill, incorporated by Benjamin N. Duke, was a textile mill that operated between 1893 and 1986. 
+        Named after its first manager William H. Erwin, it grew quickly and became one of the largest producers of denim in the world during the 1900s. 
+        The first building built on the site was Erwin Cotton Mill No. 1 in 1892.
+      </p>
+      <p>
+        Employees at Erwin Mill had some of the best working conditions and the highest wages in textile factories in the southern United States, who later signed union-friendly labor arrangements which were radical to the industry back in the early 20th century. 
+        In the years after the mill was built, William Erwin worked to build a mill village for the workers, complete with housing, shops, restaurants, and entertainment. 
+        Essentially, he created an environment where the workers would never have to leave, giving them everything they could ever need but also ensuring almost complete control over their lives.
+      </p>
+      <figure class="last">
+        <img src="../images/EMill/EMill_Complex.jpg" alt="Erwin Mill Complex in the 1930s">
+        <figcaption>Erwin Mill Complex in the 1930s (<i>Open Durham</i>)</figcaption>
+      </figure>
+    </section>
+    <footer>
+      <nav>
+        <nav>
+          <ul id="nav-links">
+            <li><a href="../index.html">B N Duke House</a></li>
+            <li><a href="MMChurch.html">Memorial Methodist Church</a></li>
+            <li><a href="BAudi.html">Baldwin Auditorium</a></li>
+            <li><a href="DChapel.html">Duke Chapel</a></li>
+            <li><a href="EMill.html">Erwin Cotton Mill No. 1</a></li>
+          </ul>
+      </nav>
+    </nav>
+    </footer>   
+    <script src="../script.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>
