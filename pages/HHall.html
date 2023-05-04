@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hero Buildings</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <model-viewer src="../models/HHall.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="../images/HHall.webp" shadow-intensity="1" environment-image="legacy" camera-orbit="37.98deg 85.08deg 114.3m" field-of-view="30deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto">
+      <button class="Hotspot" slot="hotspot-1" data-position="14.251729379555343m 13.213381473813492m 18.63891087149237m" data-normal="0.3449194688960113m 0.4331592238299471m 0.8327086205795706m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" onclick="infoPage()">Harwood Hall</div>
+      </button>
+      <div class="progress-bar" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+    </model-viewer>
+    <section>
+      <h1 onclick="modelScene()">&lt; Harwood Hall</h1>
+      <figure>
+        <img src="../images/HHall/HHall_West.png" alt="Harwood Hall, Looking West">
+        <figcaption>Harwood Hall, looking west, early 1950s</figcaption>
+      </figure>
+      <p>
+        In 1895-96, George Watts moved his original house across South Duke Street to make way for Harwood Hall, in the midst of the American Tobacco Company h dominating American cigarette manufacture. 
+        Designed by Rand and Taylor of Boston, Harwood Hall was a three-story chateau of pink granite. 
+        George Watts and his wife lived in Harwood Hall through the early decades of the 20th century. 
+        After the death of George Watts in 1921, his widow remained living at Harwood Hall and was later passed to Watt's daughter Annie and her husband John Sprunt Hill. 
+        The couple lived in the house from 1926 to 1938.
+      </p>
+      <h2>Geroge W. Watts</h2>
+      <figure class="protrait">
+        <img src="../images/HHall/HHall_GWW.png" alt="Geroge W. Watts">
+        <figcaption>Geroge W. Watts</figcaption>
+      </figure>
+      <p>
+        Born in Maryland, George W. Watts (1851-1921) was an American manufacturer, financier and philanthropist. 
+        Watts founded the first hospital in Durham, Watts hospital and co-founded the American Tobacco Company alongside James B. Duke. 
+        Being the only non-family member in the company created some animosity between the oldest Duke son Brodie and Watts. 
+        In addition to founding the first clinical hospital, Watts also established the Watt's Hospital Training School for Nurses which is now a part of the Duke University Health System.
+      </p>
+      <div class="last">
+        <h2 class="reference">References</h2>
+        <p>
+        "George Watts House - Harwood Hall | Open Durham." <i>Opendurham.org</i>, 2016, www.opendurham.org/buildings/george-watts-house-harwood-hall. Accessed 29 Apr. 2023.
+        <br><br>
+        "Watts, George Washington | NCpedia." <i>Ncpedia.org</i>, 2013, www.ncpedia.org/biography/watts-george-washington. Accessed 29 Apr. 2023.
+        <br><br>
+        "History beneath Our Feet." <i>Museumofdurhamhistory.org</i>, 2023, museumofdurhamhistory.org/beneathourfeet/people/WattsWGeorge. Accessed 29 Apr. 2023.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <nav>
+          <ul id="nav-links">
+              <li><a href="../index.html">B N Duke House</a></li>
+              <li><a href="MMChurch.html">Memorial Methodist Church</a></li>
+              <li><a href="HHall.html">Harwood Hall</a></li>
+              <li><a href="BAudi.html">Baldwin Auditorium</a></li>
+              <li><a href="DChapel.html">Duke Chapel</a></li>
+              <li><a href="FBuilding.html">Friedl Building</a></li>
+              <li><a href="EMill.html">Erwin Cotton Mill No. 1</a></li>
+          </ul>
+      </nav>
+    </nav>
+    </footer>  
+    <script src="../script.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>
